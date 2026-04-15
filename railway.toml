@@ -1,5 +1,9 @@
 [build]
-builder = "nixpacks"
+builder = "railpack"
+
+[build.config]
+pythonVersion = "3.11"
+installCmd = "pip install -r requirements.txt"
 
 [deploy]
 startCommand = "gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120"
