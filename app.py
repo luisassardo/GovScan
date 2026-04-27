@@ -29,11 +29,12 @@ def index():
 .c{max-width:480px;padding:48px;text-align:center}h1{font-size:2em;font-weight:800;color:#0dd9a3}
 .s{color:#64748b;font-size:.95em;margin:8px 0 32px}.b{background:#111827;border:1px solid #1e293b;border-radius:12px;padding:20px;text-align:left;font-size:.85em;color:#94a3b8;line-height:1.6}
 code{background:#1e293b;padding:2px 6px;border-radius:4px;color:#3b82f6}</style></head>
-<body><div class=c><h1>GovScan v1.0</h1><p class=s>Government Website Security Audit</p>
+<body><div class=c><h1>GovScan v1.0</h1><p class=s>Government Website Security Scanner</p>
 <div class=b><strong>Auth required.</strong> Use <code>?key=KEY</code> or <code>X-API-Key</code> header.<br><br>
-<code>GET /api/scan?url=insertheretheurl&key=the-key</code> Scan URL<br>
+<code>GET /api/scan?url=insert-url&key=the-key</code> Scan URL<br>
 <code>GET /api/status?key=the-key</code> Rate limit<br>
-<code>GET /api/methodology</code> Scoring (no auth)</div></div></body></html>""")
+<code>GET /api/methodology</code> Scoring (no auth)</div>
+<p class=s>Courtesy by: <a href="https://vectorcritico.com">Vector Crítico</a> and <a href="https://luisassardo.com">Luis Assardo</a></p></div></body></html>""")
 
 @app.route("/api/status")
 @require_key
