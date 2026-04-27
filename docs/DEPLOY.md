@@ -7,6 +7,6 @@
 5. Share: `https://govscan-v1.vectorcritico.com/api/scan?url=site.gob.gt&key=KEY`
 
 ## Endpoints
-- `GET /api/scan?url=https://websitetoaudit.com&key=the-key-provided` — Scan URL
-- `GET /api/status?key=K` — Rate limit
+- `GET /api/scan?url=https://thewebsitetoaudit&key=the-key-provided` — Scan URL
+- `GET /api/status?key=the-key-provided` — Rate limit
 - `GET /api/methodology` — Scoring docs (no auth)
