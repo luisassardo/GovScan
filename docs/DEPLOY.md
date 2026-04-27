@@ -4,9 +4,9 @@
 2. Railway → New Project → Deploy from GitHub
 3. Set env vars: `GOVSCAN_API_KEYS`, `GOVSCAN_RATE_LIMIT`, `SECRET_KEY`
 4. Generate keys: `python3 -c "import secrets; print(secrets.token_urlsafe(24))"`
-5. Share: `https://APP.railway.app/api/scan?url=site.gob.gt&key=KEY`
+5. Share: `https://govscan-v1.vectorcritico.com/api/scan?url=site.gob.gt&key=KEY`
 
 ## Endpoints
-- `GET /api/scan?url=X&key=K` — Scan URL
+- `GET /api/scan?url=https://websitetoaudit.com&key=the-key-provided` — Scan URL
 - `GET /api/status?key=K` — Rate limit
 - `GET /api/methodology` — Scoring docs (no auth)
