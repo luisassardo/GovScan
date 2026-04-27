@@ -31,7 +31,7 @@ def index():
 code{background:#1e293b;padding:2px 6px;border-radius:4px;color:#3b82f6}</style></head>
 <body><div class=c><h1>GovScan v1.0</h1><p class=s>Government Website Security Scanner</p>
 <div class=b><strong>Auth required.</strong> Use <code>?key=KEY</code> or <code>X-API-Key</code> header.<br><br>
-<code>GET /api/scan?url=insert-url&key=the-key</code> Scan URL<br>
+<code>GET /api/scan?url=url&key=the-key</code> Scan URL<br>
 <code>GET /api/status?key=the-key</code> Rate limit<br>
 <code>GET /api/methodology</code> Scoring (no auth)</div>
 <p class=s>Courtesy by: <a href="https://vectorcritico.com">Vector Crítico</a> and <a href="https://luisassardo.com">Luis Assardo</a></p></div></body></html>""")
